@@ -1,0 +1,87 @@
+/*
+Colors used:
+Primary Color (Teal): #1B9B9F;
+Secondary Color (Aqua): #E0FCFD;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+}
+
+h1 {
+    font-size: 2.441rem;
+    font-weight: 600;
+}
+
+h1 span {
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+  }
+
+  a {
+      color: #1B9B9F;
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: rgb(129, 225, 255);
+  }
+
+  a:hover,
+  a:focus {
+    color: rgb(1, 95, 95);
+    text-decoration: underline;
+}
+
+  a:active {
+      color: rgb(0, 58, 58);
+  }
+
+  .button {
+      display: inline-block;
+      background-color: #1B9B9F;
+      color: white;
+      font-weight: 400;
+      padding: 10px;
+      border-radius: 3px;
+      border-bottom: 2px solid rgb(1, 95, 95);
+      transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+  }
+
+  .button:active {
+    color: rgb(0, 58, 58);
+  }
+
+  .button.contact {
+    background-color: transparent;
+    color: #1B9B9F;
+    text-transform: uppercase;
+    border: 2px solid #1B9B9F;
+  }
+
+  .button.contact:hover {
+    background-color: #1B9B9F;
+    color: #ffffff;
+  }
