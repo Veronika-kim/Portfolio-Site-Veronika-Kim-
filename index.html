@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veronika Kim's Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
 </head>
-
 <body>
     <header id="header">
-        <div>
-            <img src="img/Logo.svg" alt="logo">
+        <div class="container">
+            <img src="img/Logo.svg" class="logo" alt="logo">
             <nav>
                 <ul>
                     <li><a href="about.html">About</a></li>
@@ -25,8 +27,8 @@
             </nav>
         </div>
     </header>
-    <main id="work">
-        <div>
+    <main id="hero">
+        <div class="container">
             <div>
                 <h1>Hi, my name is Veronika Kim. <br> <span>Welcome to my portfolio website!</span></h1>
                 <p>I’m a creative specializing in UX/UI Design. I’m passionate about art, design, literature, and I love
@@ -36,10 +38,10 @@
                     experiences.</p>
             </div>
         </div>
-        <div>
-            <div>
+        <div id="work">
+            <div class="container">
                 <h2>My Work</h2>
-                <div>
+                <div class="row">
                     <div>
                         <picture>
                             <source src="img/PHR App/PHR app Preview.png" media="(max-width:767px)">
@@ -54,7 +56,7 @@
                         <a href="phr.html" class="button">View Project</a>
                     </div>
                 </div>
-                <div>
+                <div class="row">
                     <div>
                         <picture>
                             <source src="img/Mooclab/Mooclab.png" media="(max-width:767px)">
@@ -66,14 +68,14 @@
                         <p>MoocLab - is an educational platform that supports online learners in every aspect of their
                             learning. From online forums, study groups, and educational resources to finding a perfect
                             study buddy - this platform provides enormous support for learners of all kinds.</p>
-                        <a href="mooclab.html">View Project</a>
+                        <a href="mooclab.html" class="button">View Project</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2>Get in Touch</h2>
             <p>I’m always open to exchanging ideas on how we can enhance customer experiences.
                 Let’s connect and keep the conversation going! <br> Call: <a href=""></a> </p>

@@ -4,14 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
     <title>About</title>
 </head>
 
 <body>
     <header id="header">
-        <div>
-            <img src="img/Logo.svg" alt="logo">
+        <div class="container">
+            <img src="img/Logo.svg" class="logo" alt="logo">
             <nav>
                 <ul>
                     <li><a href="about.html">About</a></li>
@@ -22,19 +29,19 @@
         </div>
     </header>
     <main id="about">
-        <div>
+        <div class="container">
             <div>
                 <h1>About Me</h1>
             </div>
         </div>
-        <div>
+        <div class="container">
             <div>
                 <picture>
                     <source src="img/IMG_1374.jpg" type="" media="(max-width:767px)">
                     <img src="img/IMG_1374.jpg" alt="profile image">
                 </picture>
-                <div>
-                    <div>
+                <div class="story">
+                    <div class="container">
                         <h2>My Story</h2>
                         <p>Hi! I’m a UX/UI Designer with a background in Graphic and Editorial Design. The essential
                             part of my job was working in a team to identify problems, gather requirements, and create
@@ -49,9 +56,9 @@
                         <a href="files/Veronika-Kim.-Professional-Resume (Word) copy.pdf" target="_blank">Download my
                             Resume</a>
                     </div>
-                    <div>
+                    <div class="container">
                         <h2>Skills & Tools</h2>
-                        <div>
+                        <div class="row">
                             <h3>Relevant Skills</h3>
                             <ul>
                                 UX Research
@@ -64,7 +71,7 @@
                                 HTML/CSS/Javascript
                             </ul>
                         </div>
-                        <div>
+                        <div class="row">
                             <h3>Tools I use</h3>
                             <ul>
                                 Figma, Adobe XD
@@ -80,13 +87,34 @@
         </div>
     </main>
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2>Get in Touch</h2>
             <p>I’m always open to exchanging ideas on how we can enhance customer experiences.
                 Let’s connect and keep the conversation going! <br> Call: <a href=""></a> </p>
-            <div><a href="mailto:">Email me</a></div>
+            <div><a href="mailto:" class="button contact">Email me</a></div>
             <div>
-                <a href="">Linkedin</a>
+                <a href=""><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0"
+                        viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g>
+                            <path
+                                d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
+                                fill="#007BB5" />
+                            <g>
+                                <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                                <path
+                                    d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z"
+                                    fill="#FFFFFF" />
+                                <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+                            </g>
+                        </g>
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                        <g />
+                    </svg></a>
             </div>
             <p>Copyright Veronika Kim 2022</p>
         </div>

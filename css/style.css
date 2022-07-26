@@ -4,84 +4,148 @@ Primary Color (Teal): #1B9B9F;
 Secondary Color (Aqua): #E0FCFD;
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: black;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
 }
 
 h1 {
-    font-size: 2.441rem;
-    font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 h1 span {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 h2 {
-    font-size: 1.6rem;
-    font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 img {
-    width: 100%;
-  }
-
-  a {
-      color: #1B9B9F;
-      text-decoration: none;
-  }
-
-  a:visited {
-      color: rgb(129, 225, 255);
-  }
-
-  a:hover,
-  a:focus {
-    color: rgb(1, 95, 95);
-    text-decoration: underline;
+  width: 100%;
 }
 
-  a:active {
-      color: rgb(0, 58, 58);
-  }
+/* Nav bar */
 
-  .button {
-      display: inline-block;
-      background-color: #1B9B9F;
-      color: white;
-      font-weight: 400;
-      padding: 10px;
-      border-radius: 3px;
-      border-bottom: 2px solid rgb(1, 95, 95);
-      transition: 0.2s opacity;
-  }
+nav {
+  display: inline-block;
+  width: 100%;
+}
 
-  .button:hover {
-    opacity: 0.8; 
-    text-decoration: none;
-  }
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-  .button:active {
-    color: rgb(0, 58, 58);
-  }
+nav>ul>li {
+  display: inline-block;
+}
 
-  .button.contact {
-    background-color: transparent;
-    color: #1B9B9F;
-    text-transform: uppercase;
-    border: 2px solid #1B9B9F;
-  }
+nav>ul>li>a {
+  padding: 0 15px;
+  color: #1B9B9F;
+  text-decoration: none;
+}
 
-  .button.contact:hover {
-    background-color: #1B9B9F;
-    color: #ffffff;
-  }
+nav>ul>li>a:visited {
+  color: rgb(129, 225, 255);
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:focus {
+  color: rgb(1, 95, 95);
+  text-decoration: underline;
+}
+
+nav>ul>li>a:active {
+  color: rgb(0, 58, 58);
+}
+
+
+/* Buttons */
+
+.button {
+  display: inline-block;
+  background-color: #1B9B9F;
+  color: white;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgb(1, 95, 95);
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  color: rgb(0, 58, 58);
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #1B9B9F;
+  text-transform: uppercase;
+  border: 2px solid #1B9B9F;
+}
+
+.button.contact:hover {
+  background-color: #1B9B9F;
+  color: #ffffff;
+}
+
+/* Header */
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+/* Hero */
+
+#hero, #about, #phr, #mooclab {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  padding-top: 133px;
+}
