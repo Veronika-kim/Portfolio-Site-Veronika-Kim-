@@ -16,21 +16,19 @@ body {
   color: black;
 }
 
+ul{
+  padding: 0;
+}
+
 /* Layout styling */
 
 .container {
   padding: 0 15px;
+  text-align: center;
 }
 
 .row {
   margin: 25px 0;
-}
-
-h1,
-h2,
-h3,
-p {
-  text-align: center;
 }
 
 h1 {
@@ -148,4 +146,15 @@ header {
   display: inline-block;
   width: 100%;
   padding-top: 133px;
+}
+
+/* About me */
+
+.about_img {
+  width: 50%;
+}
+
+/* Contact */
+.social-links {
+  margin-top: 10px;
 }
